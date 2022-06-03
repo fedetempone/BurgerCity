@@ -1,0 +1,89 @@
+
+@media all and (min-width: 820px){ /*DESPUES DE LOS 820 PIXELES, VERSION TABLET O ESCRITORIO, ESTILOS ↓↓ */
+
+    #logo {
+        color: #fff;
+        padding: 0 10px;
+        font-size: 20px;
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    #hamburguesalogo{
+        color: #fff;
+    }
+
+    #instagram {
+        color: #fff;
+        padding: 0 10px;
+        font-size: 20px;
+
+    }
+
+    #facebook {
+        color: #fff;
+        padding: 0 10px;
+        font-size: 20px;
+    }
+
+    .nav-links {
+        display: flex;
+        gap: 20px;
+        list-style: none;
+        text-decoration: none;
+        text-align: center;
+        justify-content: space-between;
+        flex-direction: row;
+    }
+
+    #banner{
+        height: 650px;
+    }
+    
+    #botonflotante {
+        position: fixed;
+        right: 17px;
+        }
+
+    .containerHamburguesa  {
+        display: grid;
+        gap: 122px;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: 200px 200px;
+    }
+
+    .containerCerveza  {
+        display: grid;
+        gap: 132px;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: 344px 365px;
+        padding-top: 24px;
+        row-gap: 50px;
+    }
+
+    .spanCervezas{
+        padding-top: 4em;
+    }
+
+    #ContainerNuestrasSucursales{  
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        justify-content: space-around;
+        align-items: center;
+        padding-top: 2em;
+        padding-bottom: 0.7em;
+    }
+
+    .col-4{/*ancho de formulario*/
+        width: 50%;
+    }
+
+    footer{
+        padding-top: 100px;
+    }
+
+}
